@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 25px;
+  }
+  
+  .top-container {
+    width: 100%;
+    border: 5px solid black;
+    padding: 10px;
+    box-sizing: border-box ;
+  }
+
+  .purple-box {
+      display: inline-block;
+      height: 150px;
+      width: 50px;
+      background-color: rebeccapurple;
+      margin: 0 50px;
+  }
+
+  .green-box {
+      display: inline-block;
+      height: 200px;
+      width: 400px;
+      background-color: green;
+      margin: 0 50px;
+  }
+
+  .circle {
+      background-color: lightskyblue;
+      display: inline-block;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%
+  }
+
+  .dotted-container {
+      box-sizing: border-box;
+      border: 5px dotted black;
+      width: 100%;
+      padding: 50px;
+      margin-top: 50px;
+        
+  }
+
+.inner-box {
+    height: 200px;
+    width: 100%;
+    background-color: navajowhite;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.bottom-container {
+    width: 50%;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding: 100px;
+    margin: 20px auto;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+}
+
+.bottom-container h1 {
+    letter-spacing: 10px;
+    text-align: center;
+    color: blue;
+}
